@@ -1,4 +1,4 @@
-process.env["NODE_TLS_REJECT_UNAUTHORIZED"] = 0
+//process.env["NODE_TLS_REJECT_UNAUTHORIZED"] = 0
 import { unstable_noStore as noStore } from 'next/cache';
 import { sql } from '@vercel/postgres';
 import {
